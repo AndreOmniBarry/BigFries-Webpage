@@ -1,0 +1,476 @@
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+
+/* body styling starts */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", "Kohinoor Devanagari", sans-serif;
+  }
+
+body {
+    background-color: #1e1c2a;
+    color: #fa6425;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 100%;
+  
+    color: #fff;
+}
+/*********************************HEADER**********************************************/
+header{
+  background-color: #1c1b1fe0;
+  position: fixed;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 160px;
+}
+
+.logo{
+  overflow-x: scroll;
+  }
+
+.logo img {
+    overflow-x: scroll;
+    font-size: 25px;
+    font-weight:bolder;
+    justify-content: flex-start;
+    padding: 0px 0px 67px 0px;
+    position: relative;
+    margin: -82px 1px 7px 428px;
+  }
+
+  .logoo {
+    overflow-x: scroll;
+    font-size: 25px;
+    font-weight:bolder;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    margin: 2px 1px 7px 122px;
+  }
+
+header ul a{
+  color: #fff;
+  padding: 0px 50 0px 0px;
+  text-decoration: none;
+}
+
+header ul a:hover{
+  transition: ease-out 0.375s;
+  color: #fa6425;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px -20px;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-right: 60px;
+    color: #fff;
+  }
+ 
+  /****************************Hero****************************/
+  .box{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 120px 300px 0px 200px;
+  }
+  .left{
+    padding: 90px 75px 0px 30px;
+  }
+
+  .left h2{ 
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+    font-weight:bolder;
+    color: #fa6425;
+    cursor: pointer;
+    padding-bottom: 40px;
+  }
+  .left h4{
+    font-family: 'Geologica', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 35px;
+    white-space: nowrap;
+  }
+  .button{
+    font-family: 'Geologica', sans-serif;
+    background: #fa6425;
+    color: #fff;
+    display: inline-block;
+    border-radius: 7px;
+    white-space: nowrap;
+  }
+a.button{
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+  .button:hover{
+    transition: .6s;
+    transform: scale(1.2);
+  }
+
+  .hero{
+    width: 500px;
+  }
+.hero img{
+margin-left: 80px;
+border-radius: 30px;
+}
+/*****************ABOUT*************************/
+  .box-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 62px 0px 0px;
+  }
+
+  .box-about img{
+    padding: 37px 31px 60px 114px;
+  }
+
+  .about-wrap span{
+    color: #fa6425;
+    font-weight: bolder;
+
+  }
+  .about-wrap h3{
+    font-family: sans-serif;
+    color:#fff;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0px 0px -14px 105px;
+  }
+  
+  .about-wrap p{
+  padding: 8px 0px 20px 0px;
+  font-weight: lighter;
+  line-height: 20px;
+  }
+
+  .about-wrap{
+    padding: 0px 90px 45  px 120px;
+  }
+
+
+  /*******************FOOD MENU**************************/
+  .food{
+    display: inline-block;
+    align-items:center;
+    justify-items: center; 
+    padding: 48px 0px 0px 555px; 
+  }
+.food span{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    display: flex;
+    color: #fa6425;
+    align-items:center;
+    justify-items: center; 
+    padding: 0px 0px 8px 200px;  
+}
+
+.food h3{
+  font-family: 'Geologica', sans-serif;
+  color:#fff;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+}
+.poster{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.food-item{
+  font-family: 'Geologica', sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 120%;
+  margin-left: -10%;
+  margin: -5px; 
+}
+
+.food-item img {
+  width: 50%;
+  height: 90%;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.878);
+  object-fit: contain;
+  padding: 51px 50px 95px; 
+}
+
+.food-item p{
+  margin-top: -78px;
+  text-align: center;
+  color: black;
+}
+
+.item-info {
+  padding: 10px;
+  margin-top: -87px;
+  border-radius: 7px;
+}
+
+.item-name {
+  font-family: 'Geologica', sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: -3px;
+}
+.item-details {
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.tasty-food {
+  font-family: 'Manrope', sans-serif;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  font-family: 'Montserrat', sans-serif;
+  color: #fa6425;
+}
+
+.cart-icon {
+  position: absolute;
+  top: 24px;
+  left: 413px;
+  right: 184px;
+  width: 56px;
+  height: 50px;
+  background-image: url("cartIcon1.png");
+  background-size: cover;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/*******************Services***********************/
+
+.service-wrap{
+  display: inline-block;
+  align-items:center;
+  justify-items: center; 
+  padding: 75px 0px 0px 700px; 
+  font-weight: 900; 
+}
+.service-wrap span{
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  display: flex;
+  color: #fa6425;
+  align-items:center;
+  justify-items: center; 
+  padding: 80px 0px 10px 115px;  
+}
+.service-wrap h2{
+  color:#fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.services-grid{
+  display:flex;
+  justify-content: center;
+}
+
+.text{
+  margin: 0px 0px 0px -86px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+.grid img{
+  margin: 0px 0px 0px 105px;
+  width: 100px;
+  height: auto;
+  padding-bottom: 150px;
+  max-width: 200px;
+}
+
+.grid h3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 27px;
+color: #fa6425;
+}
+.order, .ship, .del{
+font-family: 'Manrope', sans-serif;
+font-size: 20px;
+color: #fa6425;
+font-weight: bold;
+text-align: center;
+padding: 0px 0px 0px 100px;
+margin-top: -129px
+}
+
+.grid p{
+  font-family: 'Public Sans', sans-serif;
+  color: #fff;
+  margin-top: 10px;
+  font-family: sans-serif;
+  line-height: 24px;
+}
+
+/*********Phrase************/
+.phrase{
+  background: #feeee7;
+  padding: 70px 0px;
+  text-align: center;
+  margin: 129px auto;
+  border-radius: 10px;
+  width: 70%;
+}
+
+
+.phrase h2{
+  line-height: 40px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #1e1c2a;
+}
+
+/*************FOOTER***************/
+footer {
+  background-color:#1e1c2a;
+  padding: 40px 0;
+}
+
+.footer-container {
+  justify-content: space-between;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 128px;
+}
+
+.Menu-links {
+  width: 25%;
+  padding: 2px 1px 3px 236px;
+}
+
+.Menu-links h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  color: #fa6425;
+}
+
+.Menu-links h4::before {
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  left: 0;
+  bottom: -8px;
+}
+
+.Menu-links ul {
+  list-style: none;
+  padding: 0;
+  color: grey;
+  display: block;
+  color: rgba(53, 48, 48, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  transition: 0.3s;
+}
+
+.Menu-links ul li {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.Menu-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+  color: grey;
+  transform: scale(1.2);
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+
+.Menu-links ul li a:hover {
+  color: white;
+  transform: translateX(-12px);
+}
+
+.socials {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-left: 32px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.3s;
+  margin: 0px 0px 0px -78px;
+}
+
+.socials a {
+  height: 40px;
+  width: 40px;
+  background:#fa6425;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 100%;
+  transition: transform 0.4s, background-color 0.4s, color 0.4s;
+  margin-right: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  background-color: rgba(255, 255, 255, 0.827);
+  color: darkgrey;
+  transform: scale(1.2);
+}
+
+.Menu-links ul li:hover {
+  transform: scale(1.5) translateX(-50%);
+  transition: ease-in 0.3s;
+}
+
+
+
+/**SF Pro Text", "SF Pro Icons", system, -apple-system, system-ui, "system-ui", 
+"Helvetica Neue", Helvetica, Arial, "Lucida Grande", "Kohinoor Devanagari", sans-serif
